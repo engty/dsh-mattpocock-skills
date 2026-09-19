@@ -4,7 +4,7 @@
 
 **Matt Pocock 的 25 个工程与生产力技能，为 DeepSeek Harness 定制**
 
-一条命令安装，模型自动调用，或用 `/命令` 手动触发
+一条命令安装；任何任务从 **`/ask`** 开始——问清你要做什么，给出路线，一步一步编排完成
 
 ![skills](https://img.shields.io/badge/skills-25-blue?style=flat-square)
 ![model--invoked](https://img.shields.io/badge/model--invoked-11-brightgreen?style=flat-square)
@@ -35,6 +35,14 @@ dsh plugin --profile web remove dsh-mattpocock-skills
 ---
 
 ## 🚀 快速上手
+
+**⓪ 任何任务，从 `/ask` 开始**（统一入口）
+
+```
+/ask 给交易记录加一个导出 CSV 的功能
+```
+
+`/ask` 会先问清你要对这个项目做什么（直接跟描述也行），给出路线，然后一步一步带着你走：能自动跑的技能它直接执行，需要你参与的地方给出明确的 `/命令`，并全程用清单和进度条展示到哪一步了。下面的①—④是几类常见任务的独立入口，也可以不经过 `/ask` 单独使用。
 
 **① 把一个想法打磨成能动手的方案**
 
@@ -76,7 +84,7 @@ dsh plugin --profile web remove dsh-mattpocock-skills
 
 | 命令 | 作用 |
 |---|---|
-| `/ask` | 不知道该用哪个技能时问它——它是整个技能包的路由器 |
+| `/ask` | 所有任务的统一入口：问清你要做什么，给出路线，一步一步编排完成（后面可直接跟需求） |
 | `/setup-matt-pocock-skills` | 每个仓库跑一次：配置工单系统、分诊标签、文档目录 |
 
 ### 对齐与规划
