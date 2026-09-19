@@ -1,0 +1,30 @@
+{
+  "name": "dsh-mattpocock-skills",
+  "version": "1.0.0",
+  "description": "Matt Pocock's engineering & productivity agent skills, localized and enhanced for DeepSeek Harness (dsh): 25 skills adapted to dsh-native mechanisms (skill tool, subagent, ask_user_question, GenUI, mnemon memory, goal).",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "skills/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-skill": "^0.1.5-rc.2",
+    "@deepseek-ai/dsh-skill-filesystem": "^0.1.5-rc.2"
+  },
+  "license": "MIT",
+  "keywords": ["dsh", "deepseek-harness", "skills", "agent-skills", "engineering", "tdd", "code-review"]
+}

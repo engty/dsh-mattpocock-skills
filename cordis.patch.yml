@@ -1,0 +1,9 @@
+# dsh-mattpocock-skills bundle for DeepSeek Harness (dsh).
+# Inserted into the profile's composition when installed via
+# `dsh plugin --profile <name> add dsh-mattpocock-skills`.
+# The plugin row resolves the package by name through the profile's
+# node_modules; the node half registers a bundled skill provider that scans
+# this package's skills/ directory.
+- insert:
+    - id: mattpocock-skills
+      name: 'dsh-mattpocock-skills'
