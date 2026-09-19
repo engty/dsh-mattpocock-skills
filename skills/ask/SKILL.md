@@ -1,6 +1,6 @@
 ---
-name: ask-matt
-description: Ask which skill or flow fits your situation. A router over the skills in this repo. User-invoked：type /ask-matt when unsure which skill to use. 中文触发：该用哪个 skill、怎么开始。
+name: ask
+description: Ask which skill or flow fits your situation. A router over the skills in this repo. User-invoked：type /ask when unsure which skill to use. 中文触发：该用哪个 skill、怎么开始。
 disable-model-invocation: true
 ---
 

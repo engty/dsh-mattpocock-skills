@@ -76,7 +76,7 @@ dsh plugin --profile web remove dsh-mattpocock-skills
 
 | 命令 | 作用 |
 |---|---|
-| `/ask-matt` | 不知道该用哪个技能时问它——它是整个技能包的路由器 |
+| `/ask` | 不知道该用哪个技能时问它——它是整个技能包的路由器 |
 | `/setup-matt-pocock-skills` | 每个仓库跑一次：配置工单系统、分诊标签、文档目录 |
 
 ### 对齐与规划
